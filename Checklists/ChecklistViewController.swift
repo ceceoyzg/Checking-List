@@ -99,4 +99,8 @@ class ChecklistViewController: UITableViewController {
             let label = cell.viewWithTag(1000) as! UILabel
             label.text = item.text
     }
+    
+    @IBAction func addItem() {
+    
+    }
 }
